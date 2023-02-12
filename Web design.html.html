@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<title>Assignment 1</title>
+	<style type="text/css">
+.image{
+	text-align: center;
+}
+.textimg{
+	position: absolute;
+	transform: translateX(-100px);
+	color: white;
+	top: 175px;
+	left: 39%;
+	font-size: 20px;
+	font-family: courier;
+}
+.topnav{
+  background-color: #333;
+}
+
+.topnav a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 26px;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 10px;
+}
+
+.topnav input{
+  border-radius: 5px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a:active{
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 8px;
+}
+.pfp{
+	width: 200px;
+	float: left;
+	margin: 5px;
+}
+table,th,td{
+	border: 1px solid black;
+}
+table tr:nth-child(odd)
+{
+	background-color: #bfbfbf;
+}
+label{
+	margin-bottom: 25px;
+	font-family: Consolas;
+}
+input{
+	margin-bottom: 15px;
+}
+.send{
+	background-color: lightgreen;
+	border-radius: 8px;
+	padding: 2px;
+	width: 50px;
+	position: relative;
+	left: 120px;
+}
+.copyrights{
+	text-align: right;
+}
+.split-screen {
+  display: flex;
+}
+.split-line {
+  width: 3px;
+  height: 150%;
+  background-color: blue;
+  position: absolute;
+  left: 68%;
+}
+
+.left-screen {
+  width: 75%;
+}
+
+.right-screen {
+  width: 25%;
+  transform: translate(10px,-10px);
+}
+
+
+	</style>
+</head>
+<body style="background-color: #d1d0ce;width: 90%;">
+	<div class="image">
+			<img src="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" style="height:200px; width: 1000px;"><br><br>
+			<div class="textimg">I'm Vikram Ganesh a web developer</div>
+	 </div>
+<div class="split-screen">
+  <div class="left-screen">
+	<div class="page">
+	 
+	<div class="topnav">
+    	   <a class="active" href="#home">Home</a>
+           <a href="#aboutme">About Me</a>
+   	       <a href="#skills">Skills</a>
+           <a href="#contact">Contact</a>
+       	</div><br>
+       	<p>
+       		<h2 class="title" id="active">Welcome</h2>
+       		This is My Page Contain My details If you have any queries you can send a message in contact section.If you want to see my project github link provided.You can see what i learning and what i completed.This all about this page.
+       	</p>
+       	<p style="text-transform:capitalize;">
+       		<h2 class="title" id="aboutme">About Me</h2>
+       		<center><img src="https://static.vecteezy.com/system/resources/thumbnails/009/734/564/small/default-avatar-profile-icon-of-social-media-user-vector.jpg" class="pfp"></center>
+       		I am Vikram ganesh TG.I am currently pursing my Engineering degree in Velammal college of Engineering and Technology.I  am living in Madurai,Tamil Nadu.I completed html,css,java,javascipt,c courses and currently learning node and react js,jango.I do some project related to this, you can check it in my github.<div>Link:<a href="" target="blank">githhub</a></div>
+       	</p><br><br><br><br><br><br><br>
+       	<p >
+       		<h2 class="title" id="skills">Skills</h2>
+       		<table class="skills">
+       			<tr>
+       				<th>Year accquired</th>
+       				<th>Description</th>
+       				<th>Level</th>
+       			</tr>
+       			<tr>
+       				<td>2000</td>
+       				<td>HTML</td>
+       				<td>5</td>
+       			</tr>
+       			<tr>
+       				<td>2001</td>
+       				<td>CSS</td>
+       				<td>6</td>
+       			</tr>
+       			<tr>
+       				<td>2002</td>
+       				<td>Js</td>
+       				<td>7</td>
+       			</tr>
+       			<tr>
+       				<td>2003</td>
+       				<td>C</td>
+       				<td>9</td>
+       			</tr>
+       			<tr>
+       				<td>2004</td>
+       				<td>Java</td>
+       				<td>8</td>
+       			</tr>
+       		</table>
+       	</p>
+       	<p>
+       		<h2 class="title" id="contact">
+       			Send me a message
+       		</h2>
+       		<form>
+       			<label for="fname">Name</label><br>
+       			<input type="text" name="fname" value="Enter your name"><br>
+       			<label for="mailid">Email id</label><br>
+       			<input type="text" name="mailid" value="Enter your mail id"><br>
+       			<label for="mssg">Message</label><br>
+       			<textarea type="textarea" name="msg"></textarea><br>
+       			<input type="submit" class="send" value="send">
+       		</form>
+       	</p>
+       	<footer >
+        <p class="copyrights" style="text-align: center;">© Copyright 2023-2024 All rights reserved by VIKRAM GANESH TG</p>
+    </footer>
+	</div>
+</div>
+
+ <div class="right-screen">
+<p>Connect With Me:</p>
+<ul>
+<li><div>Address: Anna nagar, madurai</div></li>
+<li><div>Mail id: Vikramnew6@gmail.com</div></li>
+<li><div>Contact: 6380670771</div></li>
+</ul>
+<div id="image" >
+	<span style="">
+		<a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrgHHqL0zCl_JTbuNMvQjD3FrhbILA_1P2QXh-Te4&s" style="height:100px; width: 100px;"></a>
+		<a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShw-O1uPyH3B1pXb6THx500R6MEUPkZ84LOMIfI6skUg&s" style="height:100px; width: 100px;"></a>
+		<a href=""><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png " style="height:100px; width: 100px;"></a>
+	</span>	
+</div>
+</div>
+<div class="split-line"></div>
+</div>
+
+</body>
+</html>
